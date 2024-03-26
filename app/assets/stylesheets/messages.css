@@ -37,13 +37,13 @@
     width: 100%;
 }
 
-.chat-main {
+.messages {
     background-color: #fafafa;
     height: calc(100% - 190px);
     width: 100%;
 }
 
-.chat-footer {
+.form {
     height: 90px;
     width: 100%;
     background-color: #dddddd;
