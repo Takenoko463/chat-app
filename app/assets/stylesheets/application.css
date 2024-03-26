@@ -17,3 +17,21 @@
 * {
     box-sizing: border-box;
 }
+
+.wrapper {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+}
+
+.side-bar {
+    height: 100%;
+    width: 300px;
+    background-color: #253141;
+}
+
+.chat {
+    height: 100%;
+    width: calc(100vw-300px);
+    background-color: #ffffff;
+}
