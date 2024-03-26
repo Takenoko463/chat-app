@@ -25,6 +25,9 @@
     width: 100%;
     background-color: #253141;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .side-bar-main {
@@ -52,4 +55,23 @@
     width: 100%;
     background-color: #dddddd;
     padding: 20px 40px;
+}
+
+.user-name a {
+    color: #FAFAFA;
+    font-size: 16px;
+    background-color: #253141;
+    text-decoration: none;
+}
+
+.create-chat-button {
+    padding: 0 14px;
+}
+
+.create-chat-button a {
+    color: deepskyblue;
+    font-size: 10px;
+    padding: 14px 0px;
+    border: 1px solid lightblue;
+    text-decoration: none;
 }
