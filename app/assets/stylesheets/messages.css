@@ -100,10 +100,14 @@
 }
 
 .rm-room-button {
-    color: darkred;
     border: 1px solid darkred;
     padding: 20px;
     margin-right: 40px;
+}
+
+.rm-room-button a {
+    color: darkred;
+    text-decoration: none;
 }
 
 .message {
