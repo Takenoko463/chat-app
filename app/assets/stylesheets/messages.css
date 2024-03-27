@@ -52,6 +52,7 @@
     height: calc(100% - 190px);
     width: 100%;
     padding: 46px 40px 0;
+    overflow: scroll;
 }
 
 .form {
