@@ -4,20 +4,7 @@
     <a herf="#" class="rm-room-button">チャットを終了する</a>
   </div>
   <ul class="messages">
-    <li class="message">
-      <div class="message-header">
-        <a class="message-user-name">Tkc</a>
-        <div class="message-date">2020/3/31 12:01</div>
-      </div>
-      <p class="message-text">おはよう</p>
-    </li>
-    <li class="message">
-      <div class="message-header">
-        <a class="message-user-name">Jac</a>
-        <div class="message-date">2020/3/31 12:04</div>
-      </div>
-      <p class="message-text">さようなら</p>
-    </li>
+    <%= render partial: 'message', collection: @messages %>
   </ul>
   <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f|%>
     <div class="form-input">
