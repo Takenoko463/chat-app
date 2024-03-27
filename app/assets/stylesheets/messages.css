@@ -131,10 +131,17 @@
     margin-bottom: 40px;
 }
 
-.input-message {
-    padding: 10px;
+.form-input {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.form-message {
+    border: none;
     height: 50px;
     width: 100%;
+    padding-left: 10px;
 }
 
 .input-submit {
@@ -144,4 +151,18 @@
     font-size: 16px;
     padding: 0px 20px;
     margin-left: 15px;
+}
+
+.form-image {
+    font-size: 12px;
+    background-color: lightblue;
+    color: white;
+    padding: 12px;
+    width: 60px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
