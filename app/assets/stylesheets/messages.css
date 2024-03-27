@@ -104,3 +104,28 @@
     padding: 20px;
     margin-right: 40px;
 }
+
+.message {
+    list-style: none;
+    margin: 10px 0 40px 0;
+}
+
+.message-header {
+    display: flex;
+    align-items: start;
+}
+
+.message-user-name {
+    color: #434a54;
+    font-size: 16px;
+}
+
+.message-date {
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.message-text {
+    margin-bottom: 40px;
+}
