@@ -60,6 +60,7 @@
     width: 100%;
     background-color: #dddddd;
     padding: 20px 40px;
+    display: flex;
 }
 
 .user-name a {
@@ -133,7 +134,7 @@
 .input-message {
     padding: 10px;
     height: 50px;
-    width: calc(100% - 167px);
+    width: 100%;
 }
 
 .input-submit {
